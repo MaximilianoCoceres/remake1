@@ -150,7 +150,7 @@ body{
     width: 70%;
     font-size: 0.7em;
     color: #ddd;
-    padding: 1em;
+    padding-top: 1em;
     margin-bottom: 1em;
     font-family: var(--font-family);
     font-weight: 100;
@@ -349,8 +349,9 @@ body{
 }
 
 .itemGral:hover{
-    transform: translateY(-5px);
-    transition: 0.4s;
+    position: relative;
+    transform:scale(1.1);
+    transition: 1s;
 }
 
 .item1{
@@ -455,12 +456,15 @@ body{
     background-color: #272727;
     flex-direction: column;
     position: relative;
+    padding: 1em;
 }
 
 .contactConteiner{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
 .contactConteiner ul{
@@ -474,7 +478,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 100%;
 }
 
@@ -485,6 +489,7 @@ body{
     border-radius: 5px;
     padding: 2em;
     font-family: var(--font-family);
+    width: 100%;
 }
 
 .contact form input:focus{
@@ -502,7 +507,7 @@ body{
     border-radius: 5px;
     padding: 1em;
     font-family: var(--font-family);
-    width: 96%;
+    width: 100%;
 }
 
 .contact form textarea:focus{
@@ -527,7 +532,7 @@ body{
     font-size: 1em;
     letter-spacing: 2px;
     position: relative;
-    top: -100px;
+    top: -40px;
     text-transform: uppercase;
     color: #ddd;
 }

@@ -84,7 +84,6 @@
 
     .containerProjects{
         flex-wrap: nowrap;
-        overflow:visible;
     }
 
     .itemGral p{
@@ -100,12 +99,17 @@
         font-size: 1em;
     }
 
+
+    .contact{
+        display: flex;
+    }
     .contact h2{
         font-size: 2em;
     }
 
     .contactConteiner{
         width: 100%;
+        flex-direction: row;
     }
     .contactConteiner ul{
         display: block;
