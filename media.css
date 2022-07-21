@@ -1,0 +1,132 @@
+@media(min-width:768px){
+
+    .logo{
+        width: 15em;
+    }
+
+    .navbar{
+        display: block;
+    }
+
+    .hamburger{
+        display: none;
+    }
+    
+    .home{
+        padding-right: 8em;
+    }
+    
+    .home h1{
+        font-size: 3em;
+    }
+    
+    .home p{
+        font-size: 1em;
+        width: 50%;
+    }
+    
+    .title{
+        display: block;
+        position: absolute;
+        font-size: 8em;
+        font-family: var(--font-family);
+        color: #ddd;
+        opacity: 10%;
+        left: 100px;
+        top: 200px;
+        letter-spacing: 5px;
+    }
+    
+    .about{
+        height: 100vh;
+    }
+
+    .about h3{
+        padding: 3em;
+        font-size: 2em;
+    }
+
+    .containerAbout{
+        flex-direction: initial;
+    }
+
+    .about .text{
+        width: 20%;
+    }
+
+    .containerList{
+        width: 20%;
+    }
+
+    .about .text h4{
+        margin-top: 0;
+    }
+
+    .about .text p{
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+
+
+    .about .list h4{
+        margin-top: 0;
+    }
+
+    .imageAbout{
+        width: 20%;
+        margin-bottom: 0;
+    }
+
+    .imageAbout img{
+        height: 100%;
+    }
+
+
+    .containerProjects{
+        flex-wrap: nowrap;
+        overflow:visible;
+    }
+
+    .itemGral p{
+        top: 25em;
+    }
+
+    .blog h2{
+        font-size: 2em;
+    }
+
+    .blog button{
+        padding: 1em 1em;
+        font-size: 1em;
+    }
+
+    .contact h2{
+        font-size: 2em;
+    }
+
+    .contactConteiner{
+        width: 100%;
+    }
+    .contactConteiner ul{
+        display: block;
+        width: 50%;
+        align-items: initial;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding-left: 15em;
+        
+    }
+
+    .contact form{
+        flex-wrap:nowrap ;
+        flex-direction: column;
+        width: 50%;
+    }
+    .contact form input{
+        width: 50%;
+    }
+    .contact form textarea{
+        width: 50%;
+    }
+    }
